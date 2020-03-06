@@ -2,6 +2,15 @@
 
 /* https://vuejs.org/v2/guide/transitions.html */
 
+.present-true {
+    color: gray;
+    font-style: italic;
+}
+
+.present-false {
+    font-weight: bold;
+}
+
 .fade-enter-active, .fade-leave-active {
     transition: opacity .5s;
 }
